@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/news' element={<Home />} />
         </Routes>
       </Router>
     </MainContainer>

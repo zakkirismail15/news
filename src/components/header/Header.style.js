@@ -28,6 +28,10 @@ export const Nav = styled.nav`
     .menu {
       display: block;
     }
+
+    ul {
+      display: none;
+    }
   }
   ul.active {
     display: block;
@@ -38,10 +42,6 @@ export const Nav = styled.nav`
       padding-bottom: 3rem;
     }
     width: 60%;
-  }
-
-  ul.inactive {
-    display: none;
   }
 `;
 export const Ul = styled.ul`
